@@ -8,7 +8,7 @@ library(e1071)
 library(class)
 
 
-setwd("C:\\Users\\Esat\\Desktop\\FinalProject")
+setwd("PathToTheData")
 
 normalize <- function(x) {
   return ((x - min(x)) / (max(x) - min(x)))
